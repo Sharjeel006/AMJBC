@@ -18,6 +18,8 @@ public class AboutUsFragment extends Fragment {
 	
 	ImageView iv;
 	
+	//first change
+	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
