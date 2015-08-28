@@ -10,7 +10,7 @@
     android:layout_width="match_parent"
     android:layout_height="250dp"
     android:minDate="11/01/2014"
-    android:maxDate="08/30/2015"
+    android:maxDate="01/01/2016"
     android:showWeekNumber="false"
     android:tag="my tag" />
     
