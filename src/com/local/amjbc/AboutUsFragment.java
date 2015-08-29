@@ -1,5 +1,8 @@
 package com.local.amjbc;
 
+import com.parse.Parse;
+import com.parse.ParseInstallation;
+
 import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
@@ -23,6 +26,11 @@ public class AboutUsFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
+		
+		
+
+		  Parse.initialize(getActivity(), "vsnE82WGqhZne9IuVXV6Ecae1YLyLLrSdnCB2nel", "iYhO5bD4o8XUxyGtI6ruGuqtkuuegtRiGDmh2q5r");
+		  ParseInstallation.getCurrentInstallation().saveInBackground();
 		
 		View rootView = inflater.inflate(R.layout.fragment_aboutus, container, false);
 		((MainActivity)getActivity()).getActionBar().setTitle("About");

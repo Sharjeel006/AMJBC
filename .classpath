@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="/Users/sharjeelhussain/Documents/Workspace/AMJBC/libs/Parse-1-2/bolts-android-1.2.1-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/sharjeelhussain/Documents/Workspace/AMJBC/libs/Parse-1-2/bolts-android-1.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/sharjeelhussain/Documents/Workspace/AMJBC/libs/Parse-1-2/Parse-1.10.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/sharjeelhussain/Documents/Workspace/AMJBC/libs/Parse-1-2/ParseCrashReporting-1.10.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/sharjeelhussain/Documents/Workspace/AMJBC/libs/Parse-1-2/ParseFacebookUtilsV4-1.10.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/sharjeelhussain/Documents/Workspace/AMJBC/libs/Parse-1-2/ParseTwitterUtils-1.10.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/sharjeelhussain/Documents/Workspace/AMJBC/libs/Parse-1-2/PPNS-1.10.1.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
