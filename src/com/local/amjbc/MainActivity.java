@@ -27,6 +27,8 @@ import android.widget.ListView;
 import com.local.amjbc.adapters.NavDrawerListAdapter;
 import com.local.amjbc.chandacal.ChandaCal;
 import com.local.amjbc.model.NavDrawerItem;
+import com.parse.Parse;
+import com.parse.ParseInstallation;
 
 public class MainActivity extends Activity {
 
@@ -55,6 +57,9 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+		  Parse.initialize(this, "vsnE82WGqhZne9IuVXV6Ecae1YLyLLrSdnCB2nel", "iYhO5bD4o8XUxyGtI6ruGuqtkuuegtRiGDmh2q5r");
+		  ParseInstallation.getCurrentInstallation().saveInBackground();
 		
 		ActionBar bar = getActionBar();
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#287AA9")));

@@ -27,11 +27,6 @@ public class AboutUsFragment extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		
-		
-
-		  Parse.initialize(getActivity(), "vsnE82WGqhZne9IuVXV6Ecae1YLyLLrSdnCB2nel", "iYhO5bD4o8XUxyGtI6ruGuqtkuuegtRiGDmh2q5r");
-		  ParseInstallation.getCurrentInstallation().saveInBackground();
-		
 		View rootView = inflater.inflate(R.layout.fragment_aboutus, container, false);
 		((MainActivity)getActivity()).getActionBar().setTitle("About");
 		setHasOptionsMenu(true);

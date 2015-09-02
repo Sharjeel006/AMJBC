@@ -89,7 +89,7 @@
     
     <receiver android:name=".ParseReciever" >
         <intent-filter >
-            <action android:name="com.local.amjbc.Recieve_Push"/>
+            <action android:name="com.local.amjbc.RECEIVE_PUSH"/>
         </intent-filter>
     </receiver>
 
