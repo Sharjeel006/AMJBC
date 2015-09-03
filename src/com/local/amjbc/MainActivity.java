@@ -24,6 +24,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
+
 import com.local.amjbc.adapters.NavDrawerListAdapter;
 import com.local.amjbc.chandacal.ChandaCal;
 import com.local.amjbc.model.NavDrawerItem;
@@ -58,12 +60,10 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		  Parse.initialize(this, "vsnE82WGqhZne9IuVXV6Ecae1YLyLLrSdnCB2nel", "iYhO5bD4o8XUxyGtI6ruGuqtkuuegtRiGDmh2q5r");
-		  ParseInstallation.getCurrentInstallation().saveInBackground();
-		
 		ActionBar bar = getActionBar();
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#287AA9")));
 		invalidateOptionsMenu();
+		
 		
 		mTitle = mDrawerTitle = getTitle();
 		sp = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
