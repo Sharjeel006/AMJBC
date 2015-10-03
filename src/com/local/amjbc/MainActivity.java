@@ -64,6 +64,13 @@ public class MainActivity extends Activity {
 		bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#287AA9")));
 		invalidateOptionsMenu();
 		
+		Intent i = getIntent();
+		
+//		if(i.getStringExtra("message") == "")
+//		{
+			Toast.makeText(this, i.getStringExtra("message"), Toast.LENGTH_LONG).show();
+		//}
+		
 		
 		mTitle = mDrawerTitle = getTitle();
 		sp = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
